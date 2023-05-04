@@ -48,7 +48,7 @@ option(OPENHMD_DRIVER_EXTERNAL "External sensor driver" ON)
 option(OPENHMD_DRIVER_ANDROID "General Android driver" OFF)
 
 option(OPENHMD_EXAMPLE_SIMPLE "Simple test binary" ON)
-option(OPENHMD_EXAMPLE_SDL "SDL OpenGL test (outdated)" OFF)
+option(OPENHMD_EXAMPLE_SDL "SDL OpenGL test (outdated)" ON)
 
 if(OPENHMD_DRIVER_OCULUS_RIFT)
 	set(openhmd_source_files ${openhmd_source_files}
